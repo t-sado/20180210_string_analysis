@@ -1,0 +1,5 @@
+開発手順
+ 1.Igo本体(ver0.4.5)、Mecab辞書ファイル(ver0.98)、igo-php(ver0.1.7)をダウンロード
+ 2.igoのjarファイル、Mecabのipadicディレクトリ、igo-phpのlibディレクトリを開発ディレクトリに配置
+ 3.開発ディレクトリで以下コマンドを実行
+    java -Xmx1024m -cp igo-0.4.5.jar net.reduls.igo.bin.BuildDic ipadic ipadic SHIFT-JIS
